@@ -1,0 +1,97 @@
+.home-container {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background: linear-gradient(to right, #2e8b8b, #20b2aa);
+  color: white;
+}
+
+.booking-form {
+  background: white;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.tab-buttons button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  background: #d3f5f5;
+  font-weight: bold;
+}
+
+.tab-buttons button.active {
+  background: #20b2aa;
+  color: white;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.booking-form button {
+  width: 100%;
+  background: #20b2aa;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+}
+
+.hero-text span {
+  color: #ffe97f;
+}
+
+/* Offers Section */
+.offers-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.offers-grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.offer-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 300px;
+}
+
+.offer-card img {
+  width: 100%;
+  border-radius: 10px;
+}

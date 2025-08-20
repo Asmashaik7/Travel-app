@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4fdfc;
+  margin: 0;
+}
+
+header {
+  .hero-section {
+  background: url('https://www.vecteezy.com/photo/13089094-aerial-top-view-on-sand-beach-tropical-beach-with-white-sand-turquoise-sea-palm-trees-under-sunlight-drone-view-luxury-travel-destination-scenic-vacation-landscape-amazing-nature-paradise-island') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* dark transparent overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+}
+
+header h1 {
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.page-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.page-container img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #2e8b8b;
+}
+
+.offer-box {
+  background-color: #d1f7f2;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.destination-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.destination-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
