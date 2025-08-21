@@ -214,16 +214,17 @@ function Home() {
           </div>
           <div>
             <h4>Follow Us</h4>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" style={footerLinkStyle}>
               🌐 Website
             </a>
-            <a href="#" style={footerLinkStyle}>
+            <a href="https://facebook.com" style={footerLinkStyle}>
               📘 Facebook
             </a>
-            <a href="#" style={footerLinkStyle}>
+            <a href="https://twitter.com" style={footerLinkStyle}>
               🐦 Twitter
             </a>
-            <a href="#" style={footerLinkStyle}>
+            <a href="https://instagram.com" style={footerLinkStyle}>
               📸 Instagram
             </a>
           </div>
